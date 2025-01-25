@@ -1,3 +1,82 @@
+@keyframes ashik {
+    0%{
+        margin-bottom: 5000px;
+    }
+    100%{
+        margin-bottom: 0;
+    }
+}
+@keyframes hi {
+    0%{
+        margin-left: 5000px;
+    }
+    100%{
+        margin-left: 0;
+    }
+}
+@keyframes no {
+    0%{
+        margin-top: 5000px;
+    }
+    100%{
+margin-top: 0;
+    }
+}
+@keyframes nav-title{
+    0%{
+
+    }
+    50%{
+        margin-top: 5px;
+    }
+    100%{
+
+    }
+}
+@keyframes banner-background {
+    0%{
+        margin-left: 1000px;
+    }
+    100%{
+        margin-left: 0;
+    }
+}
+@keyframes ping-pong {
+    0%{
+        margin-top: 2000px;
+    }
+    100%{
+        margin-top: 0;
+    }
+}
+@keyframes one {
+    0%{
+        margin-left: 2000px;
+    }
+}
+/* animation */
+header{
+    animation: banner-background 1s linear 0ms 1 alternate;
+}
+.banner-pic{
+    animation: ping-pong 5s linear 0s 1 alternate;
+}
+.nav-title{
+    animation: no 1s linear 0ms 1 alternate;
+}
+a{
+    animation: hi 1.5s linear 0ms 1 alternate;
+}
+.banner-greatings{
+    animation: hi 2s linear 0ms 1 alternate;
+}
+.banner-title{
+    animation: ping-pong 1.5s linear 0.5s 1 alternate;
+}
+.banner p{
+    animation: hi 3s linear 0s 1 alternate;
+}
+/*tarnsform */
 button{
     transition: transform 500ms;
 }
@@ -14,6 +93,7 @@ button:focus{
   font-variation-settings:
     "wdth" 100;
 }
+/* nav */
 nav{
     display: flex;
     align-items: center;
